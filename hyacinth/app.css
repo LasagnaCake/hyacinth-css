@@ -7,21 +7,21 @@
 }
 
 .hy.card {
-	background-color: white;
+	background-color: var(--theme);
 	max-width: 600px;
 	width: 100%;
 	padding: 0.6em 0.3em;
 	border-radius: 0.6em;
-	box-shadow: 0px 7.5px 15px color-mix(in srgb, var(--shadow-color), transparent);
+	box-shadow: 0px 7.5px 15px color-mix(in oklab, var(--shadow-color), transparent);
 	margin: 1.2em 0.3em;
 }
 
 .hy.subcard {
-	background-color: white;
+	background-color: var(--theme);
 	max-width: 600px;
 	width: calc(100% - 1.2em);
 	padding: 0.6em 0.3em;
 	border-radius: 0.6em;
-	box-shadow: 0px 7.5px 15px color-mix(in srgb, var(--shadow-color), transparent);
+	box-shadow: 0px 2.5px 5px color-mix(in oklab, var(--shadow-color), transparent);
 	margin: 1.2em 0.3em;
 }
