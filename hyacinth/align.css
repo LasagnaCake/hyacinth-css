@@ -1,0 +1,19 @@
+.hy.center-text {
+	text-align: center;
+}
+
+.hy.flex {
+	display: flex;
+}
+
+.hy.vertical {
+	flex-direction: column;
+}
+
+.hy.horizontal {
+	flex-direction: row;
+}
+
+.hy.center {
+	justify-content: center;
+}

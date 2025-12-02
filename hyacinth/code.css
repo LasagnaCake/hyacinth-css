@@ -1,0 +1,15 @@
+.hy.code-block {
+	color: white;
+	margin: 0.6em 0.3em;
+	background-color: color-mix(in srgb, lightgray, black 80%);
+	padding: 0.6em 0.3em;
+	border-radius: 0.6em;
+}
+
+.hy.inline-code {
+	color: white;
+	margin: 0em 0.2em;
+	background-color: color-mix(in srgb, lightgray, black 80%);
+	padding: 0.1em 0.2em;
+	border-radius: 0.3em;
+}

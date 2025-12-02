@@ -1,0 +1,30 @@
+.hy.form {
+	justify-content: center;
+}
+
+.hy.input {
+	--base-color: color-mix(in oklab, var(--main-color) 90%, var(--inverse));
+	--text-color: color-mix(in oklab, var(--main-color) 40%, var(--inverse));
+	border: none;
+	border-radius: 0.3em;
+	background-color: color-mix(in oklab, var(--base-color), transparent 80%);
+	color: var(--text-color);
+	padding: 0.2em 0.4em;
+	margin: 0.4em 0.2em;
+	font-weight: normal;
+}
+
+.hy.input:hover {
+	font-weight: bold;
+	background-color: color-mix(in oklab, var(--base-color), transparent 60%);
+}
+
+.hy.input:focus {
+	font-weight: bold;
+	background-color: color-mix(in oklab, var(--base-color), transparent 60%);
+}
+
+.hy.input:disabled, .hy.input:read-only {
+	color: var(--theme);
+	background-color: color-mix(in oklab, var(--base-color), var(--inverse) 25%);
+}

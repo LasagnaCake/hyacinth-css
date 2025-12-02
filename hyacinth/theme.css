@@ -1,0 +1,18 @@
+.hy {
+	--theme:		white;
+	--inverse:		black;
+	--text:			black;
+	--main-color:	magenta;
+	--sub-color:	violet;
+	
+	--shadow-color: color-mix(in oklab, var(--main-color), black);
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	transition: 0.125s ease-out;
+}
+
+.hy.no-color {
+	background-color: transparent;
+	color: var(--inverse);
+}

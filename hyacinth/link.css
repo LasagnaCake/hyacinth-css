@@ -1,0 +1,21 @@
+.hy.link {
+	color: color-mix(in oklab, var(--main-color), var(--inverse) 25%);
+	text-decoration: none;
+	border-radius: 0.3em;
+}
+
+.hy.link:hover {
+	font-weight: bold;
+}
+
+.hy.link:active {
+	padding: 0em 0.3em;
+	margin: 0em -0.3em;
+	background-color: color-mix(in oklab, var(--main-color), transparent 80%);
+	font-weight: bolder;
+}
+
+.hy.link:visited {
+	font-weight: lighter;
+	font-style: italic;
+}

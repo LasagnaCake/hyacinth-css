@@ -1,0 +1,44 @@
+h1.hy, h2.hy, h3.hy, h4.hy, h5.hy, h6.hy {
+	text-align: center;
+}
+
+h1.hy, h2.hy, h3.hy, h4.hy, h5.hy, h6.hy {
+	color: color-mix(in oklab, var(--main-color), var(--inverse));
+	margin: 0.6em 0.3em;
+	padding: 0.6em 0.3em;
+	background-color: color-mix(in oklab, var(--sub-color), var(--theme));
+	border-radius: 0.6em;
+	box-shadow: 0px 2px 4px var(--shadow-color);
+}
+
+h1.hy {
+	background-color: color-mix(in oklab, var(--main-color), var(--inverse));
+	color: var(--theme);
+	font-size: 30pt;
+}
+
+h2.hy {
+	font-size: 24pt;
+}
+
+h3.hy {
+	font-size: 18pt;
+}
+
+body.hy {
+	background-color: color-mix(in oklab, var(--sub-color), var(--theme) 85%);
+}
+
+code.hy {
+	white-space: pre-line;
+}
+
+p.hy {
+	padding: 0.3em 0.3em;
+}
+
+body.hy {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
