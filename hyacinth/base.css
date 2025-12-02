@@ -42,3 +42,12 @@ body.hy {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
+hr.hy {
+	--base-color: color-mix(in oklab, var(--main-color), var(--inverse));
+	margin: 0.6em 0.9em;
+	padding: 2px;
+	border: none;
+	border-radius: 2px;
+	background-color: color-mix(in oklab, var(--base-color), transparent 75%);
+}
