@@ -19,6 +19,10 @@
 	color: var(--inverse);
 }
 
+.hy.no-decor {
+	text-decoration: none;
+}
+
 @media (prefers-color-scheme: dark) {
 	.hy {	
 		--theme:		black;
