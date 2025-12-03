@@ -19,3 +19,9 @@
 	font-weight: lighter;
 	font-style: italic;
 }
+
+a.hy.secret {
+	background-color: transparent;
+	color: var(--inverse);
+	text-decoration: none;
+}
