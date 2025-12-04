@@ -21,6 +21,6 @@
 
 a.hy.secret {
 	background-color: transparent;
-	color: var(--inverse);
+	color: var(--text);
 	text-decoration: none;
 }
