@@ -30,6 +30,7 @@ body.hy {
 }
 
 code.hy {
+	color: inherit;
 	white-space: pre-line;
 }
 

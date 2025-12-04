@@ -9,3 +9,7 @@
 .hy.full {
 	width: 95% !important;
 }
+
+.hy.small-font {
+	font-size: 12pt !important;
+}
