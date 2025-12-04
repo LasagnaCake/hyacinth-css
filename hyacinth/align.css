@@ -6,6 +6,10 @@
 	display: flex !important;
 }
 
+.hy.flex.wrap {
+	flex-wrap: wrap !important;
+}
+
 .hy.vertical {
 	flex-direction: column !important;
 }
