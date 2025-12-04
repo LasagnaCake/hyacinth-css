@@ -1,11 +1,11 @@
 .hy.mini {
-	width: 23%;
+	width: 23% !important;
 }
 
 .hy.half {
-	width: 48%;
+	width: 48% !important;
 }
 
 .hy.full {
-	width: 95%;
+	width: 95% !important;
 }

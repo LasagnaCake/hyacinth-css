@@ -1,19 +1,19 @@
 .hy.center-text {
-	text-align: center;
+	text-align: center !important;
 }
 
 .hy.flex {
-	display: flex;
+	display: flex !important;
 }
 
 .hy.vertical {
-	flex-direction: column;
+	flex-direction: column !important;
 }
 
 .hy.horizontal {
-	flex-direction: row;
+	flex-direction: row !important;
 }
 
 .hy.center {
-	justify-content: center;
+	justify-content: center !important;
 }

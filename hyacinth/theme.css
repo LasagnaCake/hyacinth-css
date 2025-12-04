@@ -15,12 +15,12 @@
 }
 
 .hy.no-color {
-	background-color: transparent;
-	color: var(--inverse);
+	background-color: transparent !important;
+	color: var(--inverse) !important;
 }
 
 .hy.no-decor {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
