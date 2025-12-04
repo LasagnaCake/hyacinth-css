@@ -1,0 +1,49 @@
+@keyframes hy-fade-in {
+	from	{filter: opacity(0%);}
+	to		{filter: opacity(100%);}
+}
+
+@keyframes hy-fade-out {
+	from	{filter: opacity(100%);}
+	to		{filter: opacity(0%);}
+}
+
+@keyframes hy-flash {
+	from	{filter: brightness(100%);}
+	to		{filter: brightness(0%);}
+}
+
+@keyframes hy-light-up {
+	from	{filter: brightness(0%);}
+	to		{filter: brightness(100%);}
+}
+
+@keyframes hy-rotate-ccw {
+	from	{rotate: 180deg;}
+	to		{rotate: 0deg;}
+}
+
+@keyframes hy-rotate-cw {
+	from	{rotate: -360deg;}
+	to		{rotate: 0deg;}
+}
+
+@keyframes hy-slide-left {
+	from	{translate: 50vw;}
+	to		{translate: 0vw;}
+}
+
+@keyframes hy-slide-right {
+	from	{translate: -50vw;}
+	to		{translate: 0vw;}
+}
+
+@keyframes hy-slide-up {
+	from	{translate: 0vw 20vw;}
+	to		{translate: 0vw;}
+}
+
+@keyframes hy-slide-down {
+	from	{translate: 0vw -20vw;}
+	to		{translate: 0vw;}
+}

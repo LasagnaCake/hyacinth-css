@@ -1,0 +1,7 @@
+.hy.absolute {
+	position: absolute !important;
+}
+
+.hy.fixed {
+	position: fixed !important;
+}
