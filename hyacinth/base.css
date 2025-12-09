@@ -77,7 +77,13 @@ li.hy {
 	background-color: var(--theme);
 	border-style: solid;
 	border-color: var(--base-color);
+}
+
+li.hy:first-child {
 	border-top-right-radius: inherit;
+}
+
+li.hy:last-child {
 	border-bottom-right-radius: inherit;
 }
 
