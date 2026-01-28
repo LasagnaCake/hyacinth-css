@@ -25,6 +25,62 @@
 }
 
 .hy.input:disabled, .hy.input:read-only {
+	cursor:not-allowed;
 	color: var(--theme);
 	background-color: color-mix(in oklab, var(--base-color), var(--inverse) 25%);
+}
+
+:is(input[type="checkbox"], input[type="radio"]).hy.input {
+	height: 0;
+	width: 0;
+}
+
+input[type="checkbox"].hy.input {
+	margin: 0.6em 1.6em;
+}
+
+input[type="radio"].hy.input {
+	margin: 0.6em 1.8em;
+}
+
+:is(input[type="checkbox"], input[type="radio"]).hy.input::before {
+	cursor: pointer;
+	color: transparent;
+	padding: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	background-color: inherit;
+	background-color: color-mix(in oklab, var(--base-color), transparent 80%);
+	font-family: monospace;
+	box-shadow: 0px 3px 0px color-mix(in oklab, var(--shadow-color), transparent);
+	transform: translateY(-2px);
+	transition: inherit;
+	border-radius: 0.3em;
+	display:inline-block;
+}
+
+:is(input[type="checkbox"], input[type="radio"]).hy.input:checked::before {
+	font-weight: bold;
+	background-color: color-mix(in oklab, var(--base-color), transparent 20%);
+	box-shadow: 0px 1px 0px color-mix(in oklab, var(--shadow-color), transparent 25%);
+	transform: translateY(0px);
+	color: inherit;
+}
+
+:is(input[type="checkbox"], input[type="radio"]).hy.input:hover::before {
+	background-color: color-mix(in oklab, var(--base-color), transparent 60%);
+	box-shadow: 0px 5px 0px color-mix(in oklab, var(--shadow-color), transparent 30%);
+	transform: translateY(-4px);
+}
+
+.hy.input.round, input[type="radio"].hy.input::before {
+	border-radius: 100%;
+}
+
+:is(input[type="checkbox"]).hy.input::before {
+	font-size: 0.8em;
+	content: "✓";
+}
+:is(input[type="radio"]).hy.input::before {
+	content: "•";
 }

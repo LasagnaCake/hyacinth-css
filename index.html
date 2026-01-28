@@ -110,20 +110,36 @@
 				<label for="fav-date" class="hy label"><strong>Favourite Date:</strong></label><br/>
 				<input name="fav-date" id="fav-date" type="date" class="hy input full"/><br/>
 				<hr class="hy"/>
-				<label for="likes-buttons">
+				<label for="likes-buttons-square">
 					Likes to press square toggles:
 				</label>
-				<label id="likes-buttons" class="hy toggle center">
-					<input type="checkbox" class="hy toggle">
+				<label id="likes-buttons-square" class="hy toggle center">
+					<input type="checkbox" name="likes-buttons-square" class="hy toggle">
 					<span class="hy toggle round switch"></span>
 				</label><br><br>
-				<label for="likes-buttons">
+				<label for="likes-buttons-round">
 					Likes to press round toggles:
 				</label>
-				<label id="likes-buttons" class="hy toggle center">
-					<input type="checkbox" class="hy toggle round">
+				<label id="likes-buttons-round" class="hy toggle center">
+					<input type="checkbox" name="likes-buttons-round" class="hy toggle round">
 					<span class="hy toggle round switch"></span>
 				</label>
+				<hr class="hy"/>
+				<label for="any-sel">
+					Has been to:
+				</label><br>
+				<div class="hy left-text">
+					<input type="checkbox" class="hy input" name="any-sel-here"><label for="any-sel-here">Here</label><br>
+					<input type="checkbox" class="hy input" name="any-sel-there"><label for="any-sel-there">There</label><br>
+					<input type="checkbox" class="hy input" name="any-sel-somewhere"><label for="any-sel-somewhere">Somewhere</label>
+				</div>
+				<hr class="hy"/>
+				<label for="one-sel">
+					Is:
+				</label><br>
+				<input type="radio" class="hy input round" name="one-sel"><label>Dead</label>
+				<input type="radio" class="hy input round" name="one-sel"><label>Alive</label>
+				<input type="radio" class="hy input round" name="one-sel"><label>Complicated</label>
 				<hr class="hy"/>
 				<label for="price" class="hy label"><strong>Hyacinth's price:</strong></label><br/>
 				<input name="price" id="price" type="number" class="hy input full" disabled value="00.00"/><br/>
