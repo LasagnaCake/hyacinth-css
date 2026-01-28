@@ -35,7 +35,7 @@ input.hy.toggle:checked + span.hy.toggle::before {
 }
 
 input.hy.toggle:checked + span.hy.toggle {
-	--base-color: color-mix(in oklab, var(--sub-color), var(--inverse) 30%);
+	--base-color: color-mix(in oklab, var(--main-color) 90%, var(--inverse));
 	background-color: --base-color;
 	box-shadow: 0px 2px 0px color-mix(in oklab, var(--shadow-color), transparent 25%);
 }
@@ -49,8 +49,9 @@ input.hy.toggle:active + span.hy.toggle::before {
 	box-shadow: 0px 1px 0px color-mix(in oklab, var(--shadow-color), transparent 25%);
 }
 
-input.hy.toggle:disabled + span.hy.toggle::before {
-	transform: translateY(0px);
+input.hy.toggle:disabled + span.hy.toggle {
+	--base-color: color-mix(in oklab, var(--main-color) 90%, var(--inverse));
+	background-color: color-mix(in oklab, var(--base-color), var(--inverse) 25%);
 }
 
 input.hy.toggle.round + span.hy.toggle {
