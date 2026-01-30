@@ -129,17 +129,41 @@
 					<strong>Has been to:</strong>
 				</label><br>
 				<div class="hy left-text">
-					<input type="checkbox" class="hy input" name="any-sel-here"><label for="any-sel-here">Here</label><br>
-					<input type="checkbox" class="hy input" name="any-sel-there"><label for="any-sel-there">There</label><br>
-					<input type="checkbox" class="hy input" name="any-sel-somewhere"><label for="any-sel-somewhere">Somewhere</label>
+					<label>
+						<input type="checkbox" class="hy input" name="any-sel-here">
+						<span class="hy input-view"></span>
+					</label>
+					<label for="any-sel-here">Here</label><br>
+					<label>
+						<input type="checkbox" class="hy input" name="any-sel-there">
+						<span class="hy input-view"></span>
+					</label>
+					<label for="any-sel-there">There</label><br>
+					<label>
+						<input type="checkbox" class="hy input" name="any-sel-somewhere">
+						<span class="hy input-view"></span>
+					</label>
+					<label for="any-sel-somewhere">Somewhere</label>
 				</div>
 				<hr class="hy"/>
 				<label for="one-sel" class="hy label">
 					<strong>Is:</strong>
 				</label><br>
-				<input type="radio" class="hy input" name="one-sel"><label>Dead</label>
-				<input type="radio" class="hy input" name="one-sel"><label>Alive</label>
-				<input type="radio" class="hy input" name="one-sel"><label>Complicated</label>
+				<label>
+					<input type="radio" class="hy input" name="one-sel">
+					<span class="hy input-view" name="one-sel"></span>
+				</label>
+				<label>Dead</label>
+				<label>
+					<input type="radio" class="hy input" name="one-sel">
+					<span class="hy input-view" name="one-sel"></span>
+				</label>
+				<label>Alive</label>
+				<label class="nput-view">
+					<input type="radio" class="hy input" name="one-sel" disabled="disabled">
+					<span class="hy input-view" name="one-sel"></span>
+				</label>
+				<label>Complicated</label>
 				<hr class="hy"/>
 				<label for="price" class="hy label"><strong>Hyacinth's price:</strong></label><br/>
 				<input name="price" id="price" type="number" class="hy input full" disabled value="00.00"/><br/>
