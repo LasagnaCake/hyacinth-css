@@ -1,12 +1,12 @@
 .hy.alert {
-    font-family: monospace;
     font-weight: bold;
     border-radius: 0.3em;
-    color: color-mix(in oklab, var(--alert), var(--inverse) 45%);
+    color: color-mix(in oklab, var(--alert), var(--inverse) 20%);
 }
 
 .hy.alert.loud {
-    background-color: color-mix(in oklab, var(--alert), var(--theme) 35%);
+    background-color: var(--alert);
+    color: white;
 }
 
 .hy.alert.pop {
@@ -23,7 +23,7 @@
 }
 
 .hy.alert.warn {
-    --alert: yellow;
+    --alert: gold;
 }
 
 .hy.alert.danger {
