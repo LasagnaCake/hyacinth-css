@@ -109,38 +109,3 @@ code.hy {
     word-wrap: normal;
     white-space: nowrap !important;
 }
-
-code.hy > .kw {
-    font-weight: bold;
-    color: color-mix(in oklab, blue, white);
-}
-
-code.hy > .op {
-    color: lightcoral !important;
-}
-
-code.hy > .fn {
-    color: lightgreen !important;
-}
-
-code.hy > .str {
-    color: gold !important;
-}
-
-code.hy > .num {
-    font-weight: bold;
-    color: violet !important;
-}
-
-code.hy > .macro {
-    font-weight: 500;
-    color: color-mix(in srgb, magenta, white);
-}
-
-code.hy > .memo {
-    color: gray;
-}
-
-code.hy > .name {
-    color: white;
-}
