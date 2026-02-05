@@ -1,229 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hyacynth CSS</title>
-	<link rel="stylesheet" href="hyacinth/hyacinth.css"/>
-	<link rel="stylesheet" href="hyacinth/fonts/ibm-plex-sans.css"/>
-</head>
-<body class="hy">
-	<div class="hy navbar flex horizontal center-text">
-		<div class="hy navbar-item">
-			<a class="hy link flex vertical center secret" href=".">Hya&shy;cinth CSS</a>
-		</div>
-		<div class="hy navbar-item">
-			<a class="hy link flex vertical center secret" href="#get-hyacinth-css">Get Hya&shy;cinth CSS</a>
-		</div>
-		<div class="hy navbar-item">
-			<a class="hy link flex vertical center secret" href="javascript:alert('Coming soon!')">Documen&shy;tation</a>
-		</div>
-		<div class="hy navbar-item">
-			<a class="hy link flex vertical center secret" href="javascript:alert('Coming soon!')">Tuto&shy;rial</a>
-		</div>
-	</div>
-	<div class="hy app center-text has-navbar" role="region" aria-label="Page">
-		<div class="hy card">
-			<h1 class="hy">Hya&shy;cinth CSS</h1>
-			<p class="hy">Simple CSS. Beautiful Results.</p>
-		</div>
-		<div class="hy card flex center">
-			<a class="hy button action mini" href="#what-is-hyacinth-css">What is Hya&shy;cinth CSS?</a>
-			<a class="hy button action mini" href="#simple-but-beautiful">Sim&shy;ple, but Beau&shy;tiful</a>
-			<a class="hy button action mini" href="#breathe-life-into-your-page">Breathe Life Into Your Page</a>
-			<a class="hy button action mini" href="#get-hyacinth-css">Get Hya&shy;cinth CSS</a>
-		</div>
-		<div class="hy card">
-			<h2 class="hy" id="what-is-hyacinth-css">What is Hyacinth CSS?</h2>
-			<p class="hy">
-				It's a simple CSS UI styling library.
-			</p>
-			<p class="hy">
-				Made with the goal of making HTML responsive,
-				while keeping it simple to use, and easily-customizable.
-			</p>
-			<p class="hy">
-				In fact, this website was made using it!
-			</p>
-		</div>
-		<div class="hy card">
-			<h2 class="hy" id="simple-but-beautiful">Sim&shy;ple, but Beau&shy;tiful</h2>
-			<p class="hy">
-				Harmony meets distinctiveness.
-			</p>
-			<p class="hy">
-				Elements have a physical presence in the page,
-				but do not distract from it.
-			</p>
-		</div>
-		<div class="hy card">
-			<h2 class="hy" id="breathe-life-into-your-page">Breathe Life Into Your Page</h2>
-			<div class="hy subcard flex center">
-				<input
-					type="button" class="hy button action mini"
-					onclick="alert('You pressed me!')"
-					value="I'm avai&shy;lable!"
-				/>
-				<input
-					type="button"
-					class="hy button action mini"
-					disabled
-					onclick="alert('Thank you for pressing me!')"
-					value="I'm not..."
-				/>
-			</div>
-			<div class="hy subcard flex center">
-				<input
-					type="button"
-					class="hy button ok mini"
-					onclick="alert('Thank you for pressing me!')"
-					value="I'm also a but&shy;ton!"
-				/>
-				<input
-					type="button"
-					class="hy button info mini"
-					onclick="alert('Who pressed me?')"
-					value="OMG! Me too!"
-				/>
-				<input
-					type="button"
-					class="hy button warn mini"
-					onclick="alert('These dolts won\'t listen to me!')"
-					value="Uh, guys, we have a pro&shy;blem..."
-				/>
-			</div>
-			<p class="hy">
-				Buttons light up when you click them.
-			</p>
-			<div class="hy subcard flex center">
-				<a class="hy link" href=".">
-					Look at me! I'm a link!
-				</a>
-			</div>
-			<p class="hy">
-				Links respond when you hover over them.
-			</p>
-			<div class="hy subcard center form">
-				<label for="name" class="hy label"><strong>Name:</strong></label><br/>
-				<input name="name" id="name" type="text" class="hy input full" placeholder="Your Name..."/><br/>
-				<hr class="hy"/>
-				<label for="fav-date" class="hy label"><strong>Favourite Date:</strong></label><br/>
-				<input name="fav-date" id="fav-date" type="date" class="hy input full"/><br/>
-				<hr class="hy"/>
-				<label for="likes-buttons-square" class="hy label">
-					Likes to press square toggles:
-				</label>
-				<label id="likes-buttons-square" class="hy toggle center">
-					<input type="checkbox" name="likes-buttons-square" class="hy toggle">
-					<span class="hy toggle round switch"></span>
-				</label><br><br>
-				<label for="likes-buttons-round" class="hy label">
-					Likes to press round toggles:
-				</label>
-				<label id="likes-buttons-round" class="hy toggle center">
-					<input type="checkbox" name="likes-buttons-round" class="hy toggle round">
-					<span class="hy toggle round switch"></span>
-				</label>
-				<hr class="hy"/>
-				<label for="any-sel" class="hy label">
-					<strong>Has been to:</strong>
-				</label><br>
-				<div class="hy left-text">
-					<label>
-						<input type="checkbox" class="hy input" name="any-sel-here">
-						<span class="hy input-view"></span>
-					</label>
-					<label for="any-sel-here">Here</label><br>
-					<label>
-						<input type="checkbox" class="hy input" name="any-sel-there">
-						<span class="hy input-view"></span>
-					</label>
-					<label for="any-sel-there">There</label><br>
-					<label>
-						<input type="checkbox" class="hy input" name="any-sel-somewhere">
-						<span class="hy input-view"></span>
-					</label>
-					<label for="any-sel-somewhere">Somewhere</label>
-				</div>
-				<hr class="hy"/>
-				<label for="one-sel" class="hy label">
-					<strong>Is:</strong>
-				</label><br>
-				<label>
-					<input type="radio" class="hy input" name="one-sel">
-					<span class="hy input-view" name="one-sel"></span>
-				</label>
-				<label>Dead</label>
-				<label>
-					<input type="radio" class="hy input" name="one-sel">
-					<span class="hy input-view" name="one-sel"></span>
-				</label>
-				<label>Alive</label>
-				<label class="nput-view">
-					<input type="radio" class="hy input" name="one-sel" disabled="disabled">
-					<span class="hy input-view" name="one-sel"></span>
-				</label>
-				<label>Complicated</label>
-				<hr class="hy"/>
-				<label for="price" class="hy label"><strong>Hyacinth's price:</strong></label><br/>
-				<input name="price" id="price" type="number" class="hy input full" disabled value="00.00"/><br/>
-			</div>
-			<p class="hy">
-				Forms feel and look interactive.
-			</p>
-			<div class="hy subcard center left-text">
-				<ul class="hy">
-					<li class="hy">List</li>
-					<li class="hy">List</li>
-					<li class="hy">List</li>
-				</ul>
-				<ul class="hy">
-					<li class="hy pop">List</li>
-					<li class="hy pop">List</li>
-					<li class="hy pop">List</li>
-				</ul>
-				<ol class="hy">
-					<li class="hy pop">List</li>
-					<li class="hy pop">List</li>
-					<li class="hy pop">List</li>
-				</ol>
-				<ul class="hy">
-					<li class="hy pop good">List</li>
-					<li class="hy pop neutral">List</li>
-					<li class="hy pop bad">List</li>
-				</ul>
-			</div>
-			<p class="hy">
-				Lists can be sleek and expressive.
-			</p>
-			<p class="hy">
-				Give your page that "magic", in the simplest of ways.
-			</p>
-		</div>
-		<div class="hy card">
-			<h2 class="hy" id="get-hyacinth-css">Get Hyacinth CSS</h2>
-			<p class="hy">
-				Make your web pages look beautiful and modern today.
-			</p>
-			<p class="hy">
-				Hyacinth CSS is licensed under the MIT license, and is free of charge.
-			</p>
-			<p class="hy">
-				Releases, and its source code, can be found on the <a class="hy link" href="https://github.com/LasagnaCake/hyacinth-css">project repository</a>.
-			</p>
-			<p class="hy">
-				You can also simply import the library directly in your CSS:
-			</p>
-			<div class="hy code-block left-text small-font">
-				<code>@import url("https://hy.purplecheshire.net/hy.css");</code>
-			</div>
-			<p class="hy">
-				Or your HTML:
-			</p>
-			<div class="hy code-block left-text small-font">
-				<code>&lt;link rel="stylesheet" href="https://hy.purplecheshire.net/hy.css"&gt;</code>
-			</div>
-		</div>
-	</div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hyacynth CSS</title>
+        <link rel="stylesheet" href="hyacinth/hyacinth.css" />
+        <link rel="stylesheet" href="hyacinth/fonts/ibm-plex-sans.css" />
+    </head>
+    <body class="hy">
+        <div class="hy navbar flex horizontal center-text">
+            <div class="hy navbar-item">
+                <a class="hy link flex vertical center secret" href="."
+                    >Hya&shy;cinth CSS</a
+                >
+            </div>
+            <div class="hy navbar-item">
+                <a
+                    class="hy link flex vertical center secret"
+                    href="#get-hyacinth-css"
+                    >Get Hya&shy;cinth CSS</a
+                >
+            </div>
+            <div class="hy navbar-item">
+                <a
+                    class="hy link flex vertical center secret"
+                    href="javascript:alert('Coming soon!')"
+                    >Documen&shy;tation</a
+                >
+            </div>
+            <div class="hy navbar-item">
+                <a
+                    class="hy link flex vertical center secret"
+                    href="javascript:alert('Coming soon!')"
+                    >Tuto&shy;rial</a
+                >
+            </div>
+        </div>
+        <div
+            class="hy app narrow center-text has-navbar"
+            role="region"
+            aria-label="Page"
+        >
+            <div class="hy card">
+                <h1 class="hy">Hya&shy;cinth CSS</h1>
+                <p class="hy">Simple CSS. Beautiful Results.</p>
+            </div>
+            <div class="hy card flex center">
+                <a class="hy button action mini" href="#what-is-hyacinth-css"
+                    >What is Hya&shy;cinth CSS?</a
+                >
+                <a class="hy button action mini" href="#simple-but-beautiful"
+                    >Sim&shy;ple, but Beau&shy;tiful</a
+                >
+                <a
+                    class="hy button action mini"
+                    href="#breathe-life-into-your-page"
+                    >Breathe Life Into Your Page</a
+                >
+                <a class="hy button action mini" href="#get-hyacinth-css"
+                    >Get Hya&shy;cinth CSS</a
+                >
+            </div>
+            <div class="hy card">
+                <h2 class="hy" id="what-is-hyacinth-css">
+                    What is Hyacinth CSS?
+                </h2>
+                <p class="hy">It's a simple CSS UI styling library.</p>
+                <p class="hy">
+                    Made with the goal of making HTML responsive, while keeping
+                    it simple to use, and easily-customizable.
+                </p>
+                <p class="hy">In fact, this website was made using it!</p>
+            </div>
+            <div class="hy card">
+                <h2 class="hy" id="simple-but-beautiful">
+                    Sim&shy;ple, but Beau&shy;tiful
+                </h2>
+                <p class="hy">Harmony meets distinctiveness.</p>
+                <p class="hy">
+                    Elements have a physical presence in the page, but do not
+                    distract from it.
+                </p>
+            </div>
+            <div class="hy card">
+                <h2 class="hy" id="breathe-life-into-your-page">
+                    Breathe Life Into Your Page
+                </h2>
+                <div class="hy subcard flex center">
+                    <input
+                        type="button"
+                        class="hy button action mini"
+                        onclick="alert('You pressed me!')"
+                        value="I'm avai&shy;lable!"
+                    />
+                    <input
+                        type="button"
+                        class="hy button action mini"
+                        disabled
+                        onclick="alert('Thank you for pressing me!')"
+                        value="I'm not..."
+                    />
+                </div>
+                <div class="hy subcard flex center">
+                    <input
+                        type="button"
+                        class="hy button ok mini"
+                        onclick="alert('Thank you for pressing me!')"
+                        value="I'm also a but&shy;ton!"
+                    />
+                    <input
+                        type="button"
+                        class="hy button info mini"
+                        onclick="alert('Who pressed me?')"
+                        value="OMG! Me too!"
+                    />
+                    <input
+                        type="button"
+                        class="hy button warn mini"
+                        onclick="alert('These dolts won\'t listen to me!')"
+                        value="Uh, guys, we have a pro&shy;blem..."
+                    />
+                </div>
+                <p class="hy">Buttons light up when you click them.</p>
+                <div class="hy subcard flex center">
+                    <a class="hy link" href="."> Look at me! I'm a link! </a>
+                </div>
+                <p class="hy">Links respond when you hover over them.</p>
+                <div class="hy subcard center form">
+                    <label for="name" class="hy label"
+                        ><strong>Name:</strong></label
+                    ><br />
+                    <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        class="hy input full"
+                        placeholder="Your Name..."
+                    /><br />
+                    <hr class="hy" />
+                    <label for="fav-date" class="hy label"
+                        ><strong>Favourite Date:</strong></label
+                    ><br />
+                    <input
+                        name="fav-date"
+                        id="fav-date"
+                        type="date"
+                        class="hy input full"
+                    /><br />
+                    <hr class="hy" />
+                    <label for="likes-buttons-square" class="hy label">
+                        Likes to press square toggles:
+                    </label>
+                    <label id="likes-buttons-square" class="hy toggle center">
+                        <input
+                            type="checkbox"
+                            name="likes-buttons-square"
+                            class="hy toggle"
+                        />
+                        <span class="hy toggle round switch"></span> </label
+                    ><br /><br />
+                    <label for="likes-buttons-round" class="hy label">
+                        Likes to press round toggles:
+                    </label>
+                    <label id="likes-buttons-round" class="hy toggle center">
+                        <input
+                            type="checkbox"
+                            name="likes-buttons-round"
+                            class="hy toggle round"
+                        />
+                        <span class="hy toggle round switch"></span>
+                    </label>
+                    <hr class="hy" />
+                    <label for="any-sel" class="hy label">
+                        <strong>Has been to:</strong> </label
+                    ><br />
+                    <div class="hy left-text">
+                        <label>
+                            <input
+                                type="checkbox"
+                                class="hy input"
+                                name="any-sel-here"
+                            />
+                            <span class="hy input-view"></span>
+                        </label>
+                        <label for="any-sel-here">Here</label><br />
+                        <label>
+                            <input
+                                type="checkbox"
+                                class="hy input"
+                                name="any-sel-there"
+                            />
+                            <span class="hy input-view"></span>
+                        </label>
+                        <label for="any-sel-there">There</label><br />
+                        <label>
+                            <input
+                                type="checkbox"
+                                class="hy input"
+                                name="any-sel-somewhere"
+                            />
+                            <span class="hy input-view"></span>
+                        </label>
+                        <label for="any-sel-somewhere">Somewhere</label>
+                    </div>
+                    <hr class="hy" />
+                    <label for="one-sel" class="hy label">
+                        <strong>Is:</strong> </label
+                    ><br />
+                    <label>
+                        <input type="radio" class="hy input" name="one-sel" />
+                        <span class="hy input-view" name="one-sel"></span>
+                    </label>
+                    <label>Dead</label>
+                    <label>
+                        <input type="radio" class="hy input" name="one-sel" />
+                        <span class="hy input-view" name="one-sel"></span>
+                    </label>
+                    <label>Alive</label>
+                    <label class="nput-view">
+                        <input
+                            type="radio"
+                            class="hy input"
+                            name="one-sel"
+                            disabled="disabled"
+                        />
+                        <span class="hy input-view" name="one-sel"></span>
+                    </label>
+                    <label>Complicated</label>
+                    <hr class="hy" />
+                    <label for="price" class="hy label"
+                        ><strong>Hyacinth's price:</strong></label
+                    ><br />
+                    <input
+                        name="price"
+                        id="price"
+                        type="number"
+                        class="hy input full"
+                        disabled
+                        value="00.00"
+                    /><br />
+                </div>
+                <p class="hy">Forms feel and look interactive.</p>
+                <div class="hy subcard center left-text">
+                    <ul class="hy">
+                        <li class="hy">List</li>
+                        <li class="hy">List</li>
+                        <li class="hy">List</li>
+                    </ul>
+                    <ul class="hy">
+                        <li class="hy pop">List</li>
+                        <li class="hy pop">List</li>
+                        <li class="hy pop">List</li>
+                    </ul>
+                    <ol class="hy">
+                        <li class="hy pop">List</li>
+                        <li class="hy pop">List</li>
+                        <li class="hy pop">List</li>
+                    </ol>
+                    <ul class="hy">
+                        <li class="hy pop good">List</li>
+                        <li class="hy pop neutral">List</li>
+                        <li class="hy pop bad">List</li>
+                    </ul>
+                </div>
+                <p class="hy">Lists can be sleek and expressive.</p>
+                <p class="hy">
+                    Give your page that "magic", in the simplest of ways.
+                </p>
+            </div>
+            <div class="hy card">
+                <h2 class="hy" id="get-hyacinth-css">Get Hyacinth CSS</h2>
+                <p class="hy">
+                    Make your web pages look beautiful and modern today.
+                </p>
+                <p class="hy">
+                    Hyacinth CSS is licensed under the MIT license, and is free
+                    of charge.
+                </p>
+                <p class="hy">
+                    Releases, and its source code, can be found on the
+                    <a
+                        class="hy link"
+                        href="https://github.com/LasagnaCake/hyacinth-css"
+                        >project repository</a
+                    >.
+                </p>
+                <p class="hy">
+                    You can also simply import the library directly in your CSS:
+                </p>
+                <div class="hy code-block left-text small-font">
+                    <code
+                        >@import
+                        url("https://hy.purplecheshire.net/hy.css");</code
+                    >
+                </div>
+                <p class="hy">Or your HTML:</p>
+                <div class="hy code-block left-text small-font">
+                    <code
+                        >&lt;link rel="stylesheet"
+                        href="https://hy.purplecheshire.net/hy.css"&gt;</code
+                    >
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

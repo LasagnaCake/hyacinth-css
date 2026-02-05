@@ -1,15 +1,23 @@
 .hy.mini {
-	width: 23% !important;
+    width: 23% !important;
 }
 
 .hy.half {
-	width: 48% !important;
+    width: 48% !important;
 }
 
 .hy.full {
-	width: 95% !important;
+    width: 95% !important;
+}
+
+.hy.one-third {
+    width: 28% !important;
+}
+
+.hy.two-thirds {
+    width: 58% !important;
 }
 
 .hy.small-font {
-	font-size: 12pt !important;
+    font-size: 12pt !important;
 }
