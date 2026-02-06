@@ -1,23 +1,66 @@
 .hy.mini {
-    width: 23% !important;
+	width: 23% !important;
 }
 
 .hy.half {
-    width: 48% !important;
+	width: 48% !important;
 }
 
 .hy.full {
-    width: 95% !important;
+	width: 95% !important;
 }
 
 .hy.one-third {
-    width: 28% !important;
+	width: 28% !important;
 }
 
 .hy.two-thirds {
-    width: 58% !important;
+	width: 58% !important;
 }
 
 .hy.small-font {
-    font-size: 12pt !important;
+	font-size: 12pt !important;
+}
+
+.hy.maximize {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+.hy.nano {
+	max-width: 13% !important;
+}
+
+.hy.title {
+	background-color: var(--main-color) !important;
+	color: var(--theme);
+	font-weight: bold;
+}
+
+.hy.wide-tile {
+	min-width: 150px;
+	max-width: 150px;
+	height: 50px;
+}
+
+.hy.tile {
+	min-width: 100px;
+	max-width: 100px;
+	height: 50px;
+}
+
+.hy.half-tile {
+	min-width: 50px;
+	max-width: 50px;
+	height: 50px;
+}
+
+.hy.tiny-tile {
+	min-width: 25px;
+	max-width: 25px;
+	height: 25px;
+}
+
+.hy.scroll-y {
+	overflow-y: scroll;
 }

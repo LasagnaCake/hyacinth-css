@@ -1,31 +1,36 @@
 .hy.alert {
-    font-weight: bold;
-    border-radius: 0.3em;
-    color: color-mix(in oklab, var(--alert), var(--inverse) 20%);
+	font-weight: bold;
+	border-radius: 0.3em;
+	color: color-mix(in oklab, var(--alert), var(--inverse) 20%);
 }
 
 .hy.alert.loud {
-    background-color: var(--alert);
-    color: white;
+	background-color: var(--alert);
+	color: white;
 }
 
 .hy.alert.pop {
-    box-shadow: 0px 1.5px 3px
-        color-mix(
-            in srgb,
-            transparent,
-            color-mix(in oklab, var(--alert), var(--inverse) 40%)
-        );
+	box-shadow: 0px 1.5px 3px
+		color-mix(
+			in srgb,
+			transparent,
+			color-mix(in oklab, var(--alert), var(--inverse) 40%)
+		);
+}
+
+.hy.alert.soft {
+	background-color: color-mix(in oklab, var(--alert) 20%, var(--theme));
+	color: color-mix(in oklab, var(--alert), var(--inverse));
 }
 
 .hy.alert.ok {
-    --alert: lime;
+	--alert: lime;
 }
 
 .hy.alert.warn {
-    --alert: gold;
+	--alert: gold;
 }
 
 .hy.alert.danger {
-    --alert: red;
+	--alert: red;
 }
