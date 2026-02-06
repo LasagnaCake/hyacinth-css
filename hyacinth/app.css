@@ -12,7 +12,7 @@
     max-width: 900px;
 }
 
-.hy.app.narrow {
+.hy.app:is(.narrow, .small) {
     max-width: 600px;
 }
 
