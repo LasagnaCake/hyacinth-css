@@ -4,14 +4,8 @@
     flex-wrap: wrap;
 }
 
-.hy.app.widest,
-.hy.app.largest {
+.hy.app:is(.wide, .large) {
     max-width: 1200px;
-}
-
-.hy.app.wide,
-.hy.app.large {
-    max-width: 1000px;
 }
 
 .hy.app.medium {
@@ -24,7 +18,7 @@
 
 .hy.card {
     background-color: var(--theme);
-    width: 100%;
+    width: calc(100% - 1.2em);
     padding: 0.6em 0.3em;
     border-radius: 0.6em;
     box-shadow: 0px 7.5px 15px
