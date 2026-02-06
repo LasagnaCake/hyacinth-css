@@ -28,11 +28,11 @@
 }
 
 .hy.half-height {
-	min-height: 50vh;
+	max-height: 50vh;
 }
 
 .hy.quarter-height {
-	min-height: 25vh;
+	max-height: 25vh;
 }
 
 .hy.compact {
