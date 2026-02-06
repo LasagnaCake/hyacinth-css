@@ -25,17 +25,28 @@
 	transform: translateY(0px);
 }
 
+.hy.button.tiny {
+	width: 25px;
+	height: 25px;
+	border-radius: 2em;
+}
+
 /* Action Button */
 
 .hy.button.action {
 	font-weight: bold;
 	box-shadow: 0px 3px 0px var(--shadow-color);
-	background-color: color-mix(in oklab, var(--main-color), var(--inverse) 20%);
+	background-color: color-mix(
+		in oklab,
+		var(--main-color),
+		var(--inverse) 20%
+	);
 	color: var(--theme);
 }
 
 .hy.button.action:hover {
-	box-shadow: 0px 6px 0px color-mix(in oklab, var(--shadow-color), var(--inverse));
+	box-shadow: 0px 6px 0px
+		color-mix(in oklab, var(--shadow-color), var(--inverse));
 	background-color: color-mix(in oklab, var(--main-color), var(--inverse));
 	color: color-mix(in oklab, var(--main-color), var(--theme));
 }
@@ -47,7 +58,8 @@
 }
 
 .hy.button.action:disabled {
-	box-shadow: 0px 0px 0px color-mix(in oklab, var(--main-color), var(--inverse));
+	box-shadow: 0px 0px 0px
+		color-mix(in oklab, var(--main-color), var(--inverse));
 	background-color: color-mix(in oklab, var(--main-color), gray 25%);
 	color: color-mix(in oklab, var(--main-color), var(--theme) 75%);
 }
@@ -131,4 +143,3 @@
 	background-color: color-mix(in srgb, red, gray 25%);
 	color: color-mix(in oklab, red, var(--theme) 75%);
 }
-
