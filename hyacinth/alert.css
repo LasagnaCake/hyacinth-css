@@ -34,3 +34,11 @@
 .hy.alert.danger {
 	--alert: red;
 }
+
+.hy.alert.info {
+	--alert: blue;
+}
+
+.hy.alert.unknown {
+	--alert: #b0f;
+}
