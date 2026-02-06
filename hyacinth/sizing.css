@@ -27,6 +27,19 @@
 	min-height: 100vh;
 }
 
+.hy.half-height {
+	min-height: 50vh;
+}
+
+.hy.quarter-height {
+	min-height: 25vh;
+}
+
+.hy.compact {
+	padding-top: 0.1em !important;
+	padding-bottom: 0.1em !important;
+}
+
 .hy.nano {
 	max-width: 13% !important;
 }
