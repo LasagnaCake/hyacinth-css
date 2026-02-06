@@ -28,7 +28,7 @@
 .hy.button.tiny {
 	width: 25px;
 	height: 25px;
-	border-radius: 2em;
+	border-radius: 100vw;
 }
 
 /* Action Button */
