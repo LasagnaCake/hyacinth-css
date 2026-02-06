@@ -53,25 +53,25 @@
 .hy.wide-tile {
 	min-width: 150px;
 	max-width: 150px;
-	height: 50px;
+	min-height: 50px;
 }
 
 .hy.tile {
 	min-width: 100px;
 	max-width: 100px;
-	height: 50px;
+	min-height: 50px;
 }
 
 .hy.half-tile {
 	min-width: 50px;
 	max-width: 50px;
-	height: 50px;
+	min-height: 50px;
 }
 
 .hy.tiny-tile {
 	min-width: 25px;
 	max-width: 25px;
-	height: 25px;
+	min-height: 25px;
 }
 
 .hy.scroll-y {
