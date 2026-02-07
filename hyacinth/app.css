@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+.hy.subapp {
+    width: 100%;
+}
+
 .hy.app:is(.wide, .large) {
     max-width: 1200px;
 }
