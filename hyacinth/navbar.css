@@ -28,6 +28,7 @@
         color-mix(in oklab, var(--shadow-color), transparent);
     overflow: auto;
     max-width: 10em;
+    left: 0;
 }
 
 .hy.has-sidebar {
