@@ -1,19 +1,36 @@
 .hy.navbar {
-	z-index: 1;
-	position: fixed;
-	background-color: var(--theme);
-	padding: 1.2em 1.2em;
-	margin: -0.6em 0;
-	margin-bottom: 1.2em;
-	width: 100vw;
-	box-shadow: 0px 10px 20px color-mix(in oklab, var(--shadow-color), transparent 60%);
+    z-index: 1;
+    position: fixed;
+    background-color: var(--theme);
+    padding: 1.2em 1.2em;
+    margin: -0.6em 0;
+    margin-bottom: 1.2em;
+    width: 100vw;
+    box-shadow: 0px 10px 20px
+        color-mix(in oklab, var(--shadow-color), transparent 60%);
 }
 
 .hy.navbar-item {
-	color: var(--text);
-	margin: 0.3em 0.9em;
+    color: var(--text);
+    margin: 0.3em 0.9em;
 }
 
 .hy.has-navbar {
-	margin-top: 4.6em;
+    margin-top: 4.6em;
+}
+
+.hy.sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: calc(100vh - 1.2em);
+    padding: 0.6em 0.3em;
+    box-shadow: 0px 4px 8px
+        color-mix(in oklab, var(--shadow-color), transparent);
+    overflow: auto;
+    max-width: 10em;
+}
+
+.hy.has-sidebar {
+    margin-top: 4.6em;
 }

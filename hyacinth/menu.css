@@ -1,6 +1,6 @@
 .hy.menu.popup {
-	position: fixed;
-	left: 0.5em;
-	top: 0.5em;
-	z-index: 20;
+    position: fixed;
+    left: 0.5em;
+    top: 0.5em;
+    z-index: 20;
 }
