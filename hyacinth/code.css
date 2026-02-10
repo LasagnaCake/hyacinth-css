@@ -32,3 +32,12 @@ code.hy > .memo {
 code.hy > .name {
     color: white;
 }
+
+code.hy.block {
+    border-radius: 0.6em;
+}
+
+code.hy.inline {
+    padding: 0.1em 0.3em;
+    border-radius: 0.4em;
+}
