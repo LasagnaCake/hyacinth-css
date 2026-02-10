@@ -29,6 +29,7 @@
     overflow: auto;
     max-width: 10em;
     left: 0;
+    top: 0;
 }
 
 .hy.has-sidebar {
