@@ -30,3 +30,7 @@
     max-width: 10em;
     left: 0;
 }
+
+.hy.has-sidebar {
+    margin-left: 12em;
+}
