@@ -20,9 +20,8 @@
 }
 
 .hy.sidebar {
-    position: absolute;
-    left: 0;
-    top: 0;
+    z-index: 1;
+    position: fixed;
     height: calc(100vh - 1.2em);
     padding: 0.6em 0.3em;
     box-shadow: 0px 4px 8px
