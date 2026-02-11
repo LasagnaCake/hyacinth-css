@@ -124,6 +124,12 @@ table.hy {
     table-layout: fixed;
 }
 
+th.hy {
+    margin: 0;
+    border: none;
+    background-color: color-mix(in oklab, var(--theme), var(--main-color) 25%);
+}
+
 tr.hy {
     margin: 0;
     border: none;
