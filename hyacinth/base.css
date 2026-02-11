@@ -118,7 +118,6 @@ iframe.hy {
     border: none;
 }
 
-tr.hy,
-td.hy {
+table.hy {
     border-radius: 0.6em;
 }
