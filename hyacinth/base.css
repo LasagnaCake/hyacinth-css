@@ -132,7 +132,7 @@ td.hy {
 }
 
 th.hy {
-    background-color: color-mix(in oklab, var(--theme), var(--main-color) 25%);
+    background-color: color-mix(in oklab, var(--theme), var(--main-color) 50%);
     text-align: center;
 }
 
