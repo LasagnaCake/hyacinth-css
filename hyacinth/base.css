@@ -124,20 +124,18 @@ table.hy {
     table-layout: fixed;
 }
 
-th.hy {
+th.hy,
+tr.hy,
+td.hy {
     margin: 0;
     border: none;
+}
+
+th.hy {
     background-color: color-mix(in oklab, var(--theme), var(--main-color) 25%);
     text-align: center;
 }
 
-tr.hy {
-    margin: 0;
-    border: none;
-}
-
 td.hy {
-    margin: 0;
     padding: 0.3em;
-    border: none;
 }
