@@ -1,7 +1,7 @@
-table.hy.alternate > tr.hy:nth-child(odd) {
+table.hy.alternate tr.hy:nth-child(odd) {
     background-color: color-mix(in oklab, transparent, var(--theme) 25%);
 }
 
-table.hy.alternate > td.hy:nth-child(odd) {
+table.hy.alternate tr td.hy:nth-child(odd) {
     background-color: color-mix(in oklab, transparent, var(--theme) 25%);
 }
