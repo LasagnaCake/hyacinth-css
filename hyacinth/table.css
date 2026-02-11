@@ -1,8 +1,3 @@
-tr.hy,
-td.hy {
-    border-radius: 0.6em;
-}
-
 table.hy.alternate > tr.hy:nth-child(odd) {
     background-color: color-mix(in oklab, transparent, var(--theme) 25%);
 }
