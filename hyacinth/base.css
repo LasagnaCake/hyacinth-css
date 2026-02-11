@@ -117,3 +117,8 @@ iframe.hy {
     max-height: none;
     border: none;
 }
+
+tr.hy,
+td.hy {
+    border-radius: 0.6em;
+}
