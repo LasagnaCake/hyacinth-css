@@ -121,13 +121,16 @@ iframe.hy {
 table.hy {
     border-radius: 0.6em;
     margin: 0;
+    table-layout: fixed;
 }
 
 tr.hy {
     margin: 0;
+    border: none;
 }
 
 td.hy {
     margin: 0;
-    padding: 0.1em;
+    padding: 0.3em;
+    border: none;
 }
