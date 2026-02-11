@@ -120,13 +120,14 @@ iframe.hy {
 
 table.hy {
     border-radius: 0.6em;
-    padding: 0.1em;
+    margin: 0;
 }
 
 tr.hy {
-    margin: none;
+    margin: 0;
 }
 
 td.hy {
-    margin: none;
+    margin: 0;
+    padding: 0.1em;
 }
