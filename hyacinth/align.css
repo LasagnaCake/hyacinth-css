@@ -1,27 +1,35 @@
 .hy.center-text {
-	text-align: center !important;
+    text-align: center !important;
 }
 
 .hy.left-text {
-	text-align: left !important;
+    text-align: left !important;
 }
 
 .hy.flex {
-	display: flex !important;
+    display: flex !important;
 }
 
 .hy.flex.wrap {
-	flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
 }
 
 .hy.vertical {
-	flex-direction: column !important;
+    flex-direction: column !important;
 }
 
 .hy.horizontal {
-	flex-direction: row !important;
+    flex-direction: row !important;
 }
 
 .hy.center {
-	justify-content: center !important;
+    justify-content: center !important;
+}
+
+.hy.left {
+    justify-content: left !important;
+}
+
+.hy.right {
+    justify-content: right !important;
 }
