@@ -34,6 +34,6 @@
 }
 
 .hy.has-sidebar {
-    margin-left: 12em;
-    max-width: calc(100% - 12em);
+    margin-left: 22vh;
+    max-width: calc(100% - 22vh);
 }
