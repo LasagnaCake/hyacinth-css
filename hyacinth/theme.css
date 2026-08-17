@@ -8,7 +8,7 @@
 	--shadow-color: color-mix(in oklab, var(--main-color), black);
 
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14pt;
+	font-size: 2vh;
 	transition: 0.125s ease-out;
 	color: var(--text);
 	color-scheme: inherit;
