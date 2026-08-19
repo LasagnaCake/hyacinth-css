@@ -122,6 +122,7 @@ table.hy {
     border-radius: 0.6em;
     margin: 0;
     table-layout: fixed;
+    overflow-x: scroll;
 }
 
 th.hy,
