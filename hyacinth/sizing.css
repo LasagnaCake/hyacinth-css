@@ -77,3 +77,7 @@
 .hy.scroll-y {
     overflow-y: scroll;
 }
+
+.hy.scroll-x {
+    overflow-x: scroll;
+}
