@@ -37,3 +37,17 @@
     margin-left: 22vh;
     max-width: calc(100% - 22vh);
 }
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    .hy.sidebar {
+        position: relative;
+        max-width: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .hy.has-sidebar {
+        margin-left: none;
+        max-width: none;
+    }
+}
