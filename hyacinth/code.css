@@ -36,6 +36,7 @@ code.hy > .name {
 code.hy.block {
     border-radius: 0.6em;
     overflow-x: scroll;
+    max-width: 100%;
 }
 
 code.hy.inline {
