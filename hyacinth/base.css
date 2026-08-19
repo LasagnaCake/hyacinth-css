@@ -25,15 +25,15 @@ h6.hy {
 h1.hy {
     background-color: color-mix(in oklab, var(--main-color), var(--inverse));
     color: var(--theme);
-    font-size: 30pt;
+    font-size: calc(var(--font) * 2);
 }
 
 h2.hy {
-    font-size: 24pt;
+    font-size: calc(var(--font) * 1.5);
 }
 
 h3.hy {
-    font-size: 18pt;
+    font-size: calc(var(--font) * 1.25);
 }
 
 body.hy {
