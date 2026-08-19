@@ -123,6 +123,7 @@ table.hy {
     margin: 0;
     table-layout: fixed;
     overflow-x: scroll;
+    max-width: 100%;
 }
 
 th.hy,
