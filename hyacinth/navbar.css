@@ -44,6 +44,7 @@
         max-width: none;
         box-shadow: none;
         width: 100%;
+        height: calc(50vh);
     }
 
     .hy.has-sidebar {
