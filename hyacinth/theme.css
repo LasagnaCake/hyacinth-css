@@ -14,7 +14,6 @@
 	color: var(--text);
 	color-scheme: inherit;
 	max-width: 100vw;
-	overflow-wrap: break-word;
 }
 
 .hy.no-color {
