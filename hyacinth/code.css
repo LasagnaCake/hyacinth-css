@@ -42,4 +42,5 @@ code.hy.block {
 code.hy.inline {
     padding: 0.1em 0.3em;
     border-radius: 0.4em;
+    overflow-wrap: break-word;
 }
