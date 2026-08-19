@@ -122,8 +122,6 @@ table.hy {
     border-radius: 0.6em;
     margin: 0;
     table-layout: fixed;
-    overflow-x: scroll;
-    max-width: 100%;
 }
 
 th.hy,
