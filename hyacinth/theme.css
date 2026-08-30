@@ -4,7 +4,7 @@
 	--text: var(--inverse);
 	--main-color: magenta;
 	--sub-color: violet;
-	--font: 2vh;
+	--font: max(14pt, 2vh);
 
 	--shadow-color: color-mix(in oklab, var(--main-color), black);
 
