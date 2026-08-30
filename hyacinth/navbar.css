@@ -34,8 +34,8 @@
 }
 
 .hy.has-sidebar {
-    margin-left: 22vh;
-    max-width: calc(100% - 22vh);
+    margin-left: 22vw;
+    max-width: calc(100% - 22vw);
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
