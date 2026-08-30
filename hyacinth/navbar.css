@@ -27,7 +27,7 @@
     box-shadow: 0px 4px 8px
         color-mix(in oklab, var(--shadow-color), transparent);
     overflow: auto;
-    max-width: 20vh;
+    max-width: 20vw;
     left: 0;
     top: 0;
     background-color: var(--theme);
