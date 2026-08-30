@@ -52,3 +52,19 @@
         max-width: none;
     }
 }
+
+@media print {
+    .hy.sidebar {
+   		display: none;
+        position: relative;
+        max-width: none;
+        box-shadow: none;
+        width: 0;
+        height: 0;
+    }
+
+    .hy.has-sidebar {
+        margin-left: none;
+        max-width: none;
+    }
+}
