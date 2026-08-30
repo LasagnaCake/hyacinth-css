@@ -64,7 +64,7 @@
     }
 
     .hy.has-sidebar {
-        margin-left: none;
-        max-width: none;
+        margin-left: 0;
+        max-width: 0;
     }
 }
